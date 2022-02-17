@@ -35,6 +35,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class ValidatorTests {
 
 	private Validator createValidator() {
+		// my new comment
 		LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
 		localValidatorFactoryBean.afterPropertiesSet();
 		return localValidatorFactoryBean;
